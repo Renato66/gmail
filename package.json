@@ -1,0 +1,15 @@
+{
+  "name": "gmail",
+  "version": "1.0.0",
+  "main": "functions/gmail.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod && netlify env:import .env"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "googleapis": "^113.0.0"
+  }
+}
